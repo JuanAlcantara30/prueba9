@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="section container animate-up">
+    <h1>Reservar Cita</h1>
+    <form action="/agenda" method="POST" class="contact-form-glass">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="text" name="telefono" placeholder="Teléfono" required>
+        <select name="servicio"><option value="limpieza">Limpieza Dental</option></select>
+        <input type="date" name="fecha" required>
+        <input type="time" name="hora" required>
+        <button type="submit" class="submit-btn" style="margin-top: 1rem;">Confirmar Cita</button>
+    </form>
+</section>
+{% endblock %}
