@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Dra. Sabrinsky Flores | Clínica Dental y Estética{% endblock %}
+{% block content %}
+<section class="hero animate-up">
+    <div class="hero-content">
+        <h1 class="font-outfit">Sonríe con <span style="color: var(--accent);">confianza.</span></h1>
+        <p>Atención dental personalizada y tecnología avanzada en Santo Domingo.</p>
+        <div style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
+            <a href="/agenda" class="cta-button">Agendar Cita Ahora</a>
+        </div>
+    </div>
+    <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1629908356501-8840449da6bd?auto=format&fit=crop&q=80&w=1200" alt="Hero">
+    </div>
+</section>
+<section class="reviews-banner animate-up">
+    <div class="star-rating">★★★★★</div>
+    <h2 class="font-outfit" style="color: white;">5.0 Estrellas | 198 Reseñas en Google</h2>
+</section>
+<section class="section container">
+    <div class="section-title animate-up">
+        <h2>Excelencia en <span style="color: var(--accent);">tratamientos</span></h2>
+    </div>
+    <div class="grid-services animate-up">
+        <div class="service-card"><h3>Limpieza Dental</h3><p>Higiene profesional indolora.</p></div>
+        <div class="service-card"><h3>Estética Dental</h3><p>Diseño de sonrisa y blanqueamiento.</p></div>
+        <div class="service-card"><h3>Ortodoncia</h3><p>Alineadores invisibles y estéticos.</p></div>
+    </div>
+</section>
+{% endblock %}
